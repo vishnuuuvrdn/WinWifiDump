@@ -1,14 +1,14 @@
 WinWifiDump
 
-A simple Windows tool to dump WiFi profiles and passwords.
+A simple Windows tool that shows all saved WiFi networks and their passwords.
 
 Features
 
-List all WiFi profiles saved on the system.
+Displays all WiFi profiles stored on your Windows system.
 
-Extract and display clear-text passwords of those profiles.
+Shows the password of each WiFi profile (if available).
 
-Run from the command line for quick results.
+Fast and lightweight command-line tool.
 
 Installation
 
@@ -17,27 +17,36 @@ Clone the repository:
 git clone https://github.com/vishnuuuvrdn/WinWifiDump.git
 
 
-Build or download the executable (if provided).
+Build the project or use the executable if it is already included.
 
 Usage
 
 Open Command Prompt as Administrator.
 
-Run WinWifiDump.exe (or appropriate script).
+Run:
 
-Review the output list of WiFi profiles with their passwords.
+WinWifiDump.exe
 
-Structure
-WinWifiDump/         ← project root
- ├─ WinWifiDump.exe  ← compiled tool (if available)
- ├─ WinWifiDump.cs   ← source code (C# or other language)
- ├─ README.md        ← this file
- └─ LICENSE          ← license file
+
+The tool will list all WiFi profiles and their passwords.
+
+Project Structure
+WinWifiDump/
+ ├─ WinWifiDump.exe
+ ├─ source files
+ ├─ README.md
+ └─ LICENSE
+
+Requirements
+
+Windows OS
+
+Administrator privileges
 
 Contributing
 
-Feel free to submit bug-fixes or improvements via Pull Request.
+Pull requests are welcome. Feel free to suggest improvements or report issues.
 
 License
 
-This project is licensed under the MIT License.
+This project is released under the MIT License.
