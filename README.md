@@ -1,47 +1,43 @@
-WinWifiDump 🔐
-==========================
+WinWifiDump
 
-WinWifiDump is a small Python script that helps you view all the Wi-Fi networks saved on your **Windows** computer — along with their passwords (if available).
+A simple Windows tool to dump WiFi profiles and passwords.
 
-⚠️ This script is for **personal and educational use only**.  
-Do not use it on devices that you don’t own or don’t have permission to access!
+Features
 
---------------------------------------------
+List all WiFi profiles saved on the system.
 
-📄 File Information:
-- Script name: `wifidump.py`
-- Repository name: `WinWifiDump`
-- Created by: Vishnuuu
+Extract and display clear-text passwords of those profiles.
 
---------------------------------------------
+Run from the command line for quick results.
 
-✅ What This Script Does:
-- Finds all saved Wi-Fi names (SSIDs)
-- Shows the password for each (if available)
-- Skips networks that don’t have passwords
-- Works only on **Windows**
+Installation
 
---------------------------------------------
+Clone the repository:
 
-🧰 Requirements:
-- Python 3 installed
-- Windows operating system
-
---------------------------------------------
-
-▶️ How To Use It:
-1. Open **Command Prompt as Administrator**
-2. Go to the folder where `wifidump.py` is saved
-3. Run the script by typing:
-4. `python wifidump.py`
-
---------------------------------------------
-
-🔒 Use Responsibly:
-This tool is for learning and recovering your own passwords only.  
-**Never use it on other people’s computers** or networks without permission. That may be illegal.
-
---------------------------------------------------
+git clone https://github.com/vishnuuuvrdn/WinWifiDump.git
 
 
+Build or download the executable (if provided).
 
+Usage
+
+Open Command Prompt as Administrator.
+
+Run WinWifiDump.exe (or appropriate script).
+
+Review the output list of WiFi profiles with their passwords.
+
+Structure
+WinWifiDump/         ← project root
+ ├─ WinWifiDump.exe  ← compiled tool (if available)
+ ├─ WinWifiDump.cs   ← source code (C# or other language)
+ ├─ README.md        ← this file
+ └─ LICENSE          ← license file
+
+Contributing
+
+Feel free to submit bug-fixes or improvements via Pull Request.
+
+License
+
+This project is licensed under the MIT License.
